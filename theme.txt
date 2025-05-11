@@ -1,0 +1,14 @@
+/meu-tema-jekyll
+│── _layouts/
+│   ├── default.html  (Layout base)
+│   ├── post.html     (Layout para posts individuais)
+│── _includes/
+│   ├── header.html   (Cabeçalho)
+│   ├── footer.html   (Rodapé)
+│── _posts/
+│   ├── 2025-05-11-exemplo.md (Post de exemplo)
+│── assets/
+│   ├── css/
+│   │   ├── style.css (Seu CSS)
+│── index.html        (Página inicial com lista de posts)
+│── _config.yml       (Configuração do Jekyll)
