@@ -9,14 +9,14 @@ title: Meu Blog
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %} </ul>
 </div>
-	<style>
-		.gcr-row,
-		.gcr-row-content {
+<style>
+		.bee-row,
+		.bee-row-content {
 			position: relative
 		}
 
-		.gcr-row-1,
-		.gcr-row-1 .gcr-row-content {
+		.bee-row-1,
+		.bee-row-1 .bee-row-content {
 			background-repeat: no-repeat
 		}
 
@@ -40,71 +40,71 @@ title: Meu Blog
 			margin: 0
 		}
 
-		.gcr-row-content {
+		.bee-row-content {
 			max-width: 500px;
 			margin: 0 auto;
 			display: flex
 		}
 
-		.gcr-row-content .gcr-col-w12 {
+		.bee-row-content .bee-col-w12 {
 			flex-basis: 100%
 		}
 
-		.gcr-button a {
+		.bee-button a {
 			text-decoration: none
 		}
 
-		.gcr-button-content {
+		.bee-button-content {
 			text-align: center
 		}
 
-		.gcr-image {
+		.bee-image {
 			overflow: auto
 		}
 
-		.gcr-image .gcr-center {
+		.bee-image .bee-center {
 			margin: 0 auto
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-1,
-		.gcr-row-1 .gcr-col-1 .gcr-block-7,
-		.gcr-row-1 .gcr-col-1 .gcr-block-9 {
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-1 .bee-col-1 .bee-block-7,
+		.bee-row-1 .bee-col-1 .bee-block-9 {
 			width: 100%
 		}
 
-		.gcr-image img {
+		.bee-image img {
 			display: block;
 			width: 100%
 		}
 
-		.gcr-list ul {
+		.bee-list ul {
 			margin: 0;
 			padding: 0 0 0 20px
 		}
 
-		.gcr-list ul li {
+		.bee-list ul li {
 			list-style-position: outside
 		}
 
-		.gcr-paragraph {
+		.bee-paragraph {
 			overflow-wrap: anywhere
 		}
 
-		.gcr-social .icon img {
+		.bee-social .icon img {
 			max-height: 32px
 		}
 
 		@media (max-width:520px) {
-			.gcr-row-content:not(.no_stack) {
+			.bee-row-content:not(.no_stack) {
 				display: block
 			}
 		}
 
-		.gcr-row-1 .gcr-row-content {
+		.bee-row-1 .bee-row-content {
 			color: #000000
 		}
 
-		.gcr-row-1 .gcr-col-1 {
+		.bee-row-1 .bee-col-1 {
 			padding-bottom: 5px;
 			padding-top: 5px;
 			display: flex;
@@ -112,31 +112,31 @@ title: Meu Blog
 			justify-content: center
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-2 {
+		.bee-row-1 .bee-col-1 .bee-block-2 {
 			padding: 10px;
 			text-align: center;
 			width: 100%
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-12,
-		.gcr-row-1 .gcr-col-1 .gcr-block-13,
-		.gcr-row-1 .gcr-col-1 .gcr-block-3,
-		.gcr-row-1 .gcr-col-1 .gcr-block-5 {
+		.bee-row-1 .bee-col-1 .bee-block-12,
+		.bee-row-1 .bee-col-1 .bee-block-13,
+		.bee-row-1 .bee-col-1 .bee-block-3,
+		.bee-row-1 .bee-col-1 .bee-block-5 {
 			padding: 10px
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-11,
-		.gcr-row-1 .gcr-col-1 .gcr-block-4 {
+		.bee-row-1 .bee-col-1 .bee-block-11,
+		.bee-row-1 .bee-col-1 .bee-block-4 {
 			padding: 10px;
 			text-align: center
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-10 {
+		.bee-row-1 .bee-col-1 .bee-block-10 {
 			padding: 15px;
 			width: 100%
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-2 h1 {
+		.bee-row-1 .bee-col-1 .bee-block-2 h1 {
 			color: #0000ff;
 			direction: ltr;
 			font-family: Arial, Helvetica, sans-serif;
@@ -147,8 +147,8 @@ title: Meu Blog
 			text-align: center
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-3,
-		.gcr-row-1 .gcr-col-1 .gcr-block-5 {
+		.bee-row-1 .bee-col-1 .bee-block-3,
+		.bee-row-1 .bee-col-1 .bee-block-5 {
 			color: #262626;
 			direction: ltr;
 			font-size: 14px;
@@ -158,19 +158,19 @@ title: Meu Blog
 			text-align: left
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-12 a,
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 li a,
-		.gcr-row-1 .gcr-col-1 .gcr-block-3 a,
-		.gcr-row-1 .gcr-col-1 .gcr-block-5 a {
+		.bee-row-1 .bee-col-1 .bee-block-12 a,
+		.bee-row-1 .bee-col-1 .bee-block-13 li a,
+		.bee-row-1 .bee-col-1 .bee-block-3 a,
+		.bee-row-1 .bee-col-1 .bee-block-5 a {
 			color: #7747FF
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-12 p:not(:last-child),
-		.gcr-row-1 .gcr-col-1 .gcr-block-3 p:not(:last-child) {
+		.bee-row-1 .bee-col-1 .bee-block-12 p:not(:last-child),
+		.bee-row-1 .bee-col-1 .bee-block-3 p:not(:last-child) {
 			margin-bottom: 16px
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-4 a:hover {
+		.bee-row-1 .bee-col-1 .bee-block-4 a:hover {
 			background-color: #2510a3 !important;
 			border-bottom: 0 solid transparent !important;
 			border-left: 0 solid transparent !important;
@@ -179,7 +179,7 @@ title: Meu Blog
 			color: #ffffff !important
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-4 a {
+		.bee-row-1 .bee-col-1 .bee-block-4 a {
 			background-color: #0000ff;
 			border-radius: 4px;
 			color: #ffffff;
@@ -193,11 +193,11 @@ title: Meu Blog
 			width: auto
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-5 p:not(:last-child) {
+		.bee-row-1 .bee-col-1 .bee-block-5 p:not(:last-child) {
 			margin-bottom: 14px
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-12 {
+		.bee-row-1 .bee-col-1 .bee-block-12 {
 			color: #aaa;
 			direction: ltr;
 			font-size: 12px;
@@ -207,7 +207,7 @@ title: Meu Blog
 			text-align: center
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 {
+		.bee-row-1 .bee-col-1 .bee-block-13 {
 			color: #101112;
 			direction: ltr;
 			font-size: 16px;
@@ -217,20 +217,20 @@ title: Meu Blog
 			text-align: left
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 ul {
+		.bee-row-1 .bee-col-1 .bee-block-13 ul {
 			list-style-type: revert;
 			list-style-position: inside
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 li:not(:last-child) {
+		.bee-row-1 .bee-col-1 .bee-block-13 li:not(:last-child) {
 			margin-bottom: 0
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 li ul {
+		.bee-row-1 .bee-col-1 .bee-block-13 li ul {
 			margin-top: 0
 		}
 
-		.gcr-row-1 .gcr-col-1 .gcr-block-13 li li {
+		.bee-row-1 .bee-col-1 .bee-block-13 li li {
 			margin-left: 30px
 		}
-	</style>
+</style>
