@@ -2,6 +2,6 @@ title: "News - Gean Ramos"
 description: "Um blog simples feito com Jekyll"
 baseurl: ""
 url: "http://email.geanramos.com.br/"
-theme: email
+theme: minima
 markdown: kramdown
 paginate: 5
