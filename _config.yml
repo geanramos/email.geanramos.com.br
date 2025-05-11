@@ -2,7 +2,7 @@ title: "News - Gean Ramos"
 description: "Um blog simples feito com Jekyll"
 permalink: ':title'
 baseurl: ""
-url: "http://email.geanramos.com.br"
+url: "https://email.geanramos.com.br"
 theme: minima
 markdown: kramdown
-paginate: 5
+paginate: 10
