@@ -20,6 +20,10 @@
 		a {
 			color: #0000ff
 		}
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
 
 		* {
 			box-sizing: border-box
