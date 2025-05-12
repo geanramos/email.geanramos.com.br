@@ -34,13 +34,14 @@ img {
 		p {
 			margin: 0
 		}
+
 h2 {
   color: #00f;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.5;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 h3,
@@ -48,13 +49,12 @@ h4,
 h5,
 h6 {
   color: #FD9599;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
-
 
 		.gcr-row-content {
 			max-width: 500px;
