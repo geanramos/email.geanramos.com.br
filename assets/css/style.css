@@ -41,11 +41,12 @@
 
 h2 {
   color: #00f;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.6;
   margin: 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3,
@@ -53,11 +54,12 @@ h4,
 h5,
 h6 {
   color: #FD9599;
-  font-size: 10px;
-  font-weight: bold;
-  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2;
   margin: 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
 		.gcr-row-content {
@@ -96,7 +98,7 @@ h6 {
 
 		.gcr-image img {
 			display: block;
-			width: 100%;
+			width: 90%;
 			border-radius: 4px
 		}
 
