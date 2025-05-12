@@ -230,7 +230,7 @@ h6 {
       padding: 0.3rem 0.4rem;
       border-radius: 4px;
       font-size: 10px;
-      font-family: Roboto;
+      font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif;
       text-transform: uppercase;
       font-style: italic;
       color: #fd9599;
