@@ -158,7 +158,7 @@ h6 {
 			font-weight: 400;
 			letter-spacing: 0;
 			line-height: 120%;
-			text-align: left
+			text-align: left;
 		}
 
 		.gcr-row-1 .gcr-col-1 .gcr-block-12 a,
@@ -226,10 +226,14 @@ h6 {
 
 
     code {
-      border: 1px solid #414141;
-      background-color: #222;
+      background-color: #ddf;
       padding: 0.3rem 0.4rem;
-      border-radius: 0.3rem;
+      border-radius: 4px;
+      font-size: 10px;
+      font-family: Roboto;
+      text-transform: uppercase;
+      font-style: italic;
+      color: #fd9599;
     }
 
     blockquote {
@@ -253,7 +257,7 @@ h6 {
     blockquote::after {
       content: "";
       position: absolute;
-      color: #777;
+      color: #00f;
       left: 5px;
       top: 25px;
       width: 1px;
