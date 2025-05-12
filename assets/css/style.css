@@ -34,6 +34,27 @@ img {
 		p {
 			margin: 0
 		}
+h2 {
+  color: #00f;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #FD9599;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+
 
 		.gcr-row-content {
 			max-width: 500px;
