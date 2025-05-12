@@ -264,3 +264,10 @@ h6 {
       height: 100%;
       background-color: currentColor;
     }
+hr {
+  border: none;
+  height: 40px;
+  background: url('https://media.beehiiv.com/uploads/asset/file/febce6e3-a188-4d9a-9b24-8af21c486ca8/Content_Breaks__1_.png') center center no-repeat;
+  background-size: contain;
+  margin: 3rem auto;
+}
