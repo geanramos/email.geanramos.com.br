@@ -98,7 +98,7 @@ h6 {
 
 .gcr-image img {
 	display: block;
-	/*! width: 90%; */
+	width: 90%;
 	border-radius: 4px
 }
 
